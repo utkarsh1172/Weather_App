@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  height: 100vh;
+  background-position: top center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 50vh;
+  border-radius: 5px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.6);
+  height: 60%;
+}
+
+input {
+  width: 80%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color:  rgb(94, 7, 7);
+  background-color: rgb(243, 241, 241);
+  margin: 20px;
+  font-size: 1.1em;
+  font-weight: 6 00;
+}
+
+.weather-report {
+  display: none;
+  margin: 15px;
+  height: 70%;
+  background-color: rgb(213, 213, 213);
+  color: rgb(94, 7, 7);
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 20px;
+  
+}
+
+input:focus{
+  background-color: rgba(255,255,255);
+}
+.city{
+  margin: 20px;
+}
+.date{
+margin: 10px;
+}
+
+.temp> h1{
+    margin: 20px;
+    font-size: 3em;
+    text-shadow: 2px 3px rgb(171, 168, 168);
+}
+
+.min-max{
+  margin-top: 40px ;
+  letter-spacing: 2px;
+}
+
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.video-list{
+  display: none;
+}
